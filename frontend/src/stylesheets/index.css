@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: "Nunito", sans-serif;
+    margin: 5em 0;
+    background: rgb(17, 79, 129);
+    text-align: center;
+}
+.container {
+    margin-top: 20%;
+    max-width: 500px;
+    color: #fff;
+}
+.title {
+    margin-bottom: 60px;
+}
+.content {
+    margin-bottom: 60px;
+}
+@media (min-width: 576px) {
+    .modal-dialog {
+        margin-top: 10rem;
+    }
+}
+.modal-body
+{
+    min-width: 500px;
+}
